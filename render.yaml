@@ -4,7 +4,7 @@ services:
     name: AList+Aria2
     env: docker
     repo: https://github.com/Alexander-Porter/AList-Aria2-Render.git # optional
-    region: Singapore # optional (defaults to oregon)
+    region:  # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
     envVars:
